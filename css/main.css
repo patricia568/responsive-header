@@ -20,6 +20,7 @@ html {
 }
 
 header {
+  color: inherit;
   background-color: #18294f;
   padding-bottom: .1em;
 }
