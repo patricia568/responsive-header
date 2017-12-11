@@ -132,7 +132,8 @@ a:hover {
   }
 
   header {
-    padding-bottom: 4em;
+    overflow: hidden;
+    padding-bottom: 0;
   }
 
 }
