@@ -11,9 +11,9 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
 
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   line-height: 1.3;
-  font: normal 100%/1.3 sans-serif;
+  font: normal;
 }
 
 *, *::before, *::after {
