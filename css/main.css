@@ -10,8 +10,13 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header {
+    background-color: #18294f;
 }
