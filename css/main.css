@@ -11,8 +11,8 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
 
-  font-family: 'Ubuntu', sans-serif;
-  line-height: 1.3;
+  font-family: "Ubuntu", sans-serif;
+  font: normal 100%/1.3;
 }
 
 *, *::before, *::after {
@@ -20,15 +20,17 @@ html {
 }
 
 header {
+  color: inherit;
   background-color: #18294f;
   padding-bottom: .1em;
+  overflow: hidden;
 }
 
 body {
   margin: 0;
 }
 
-h1 {
+header h1 {
   margin-top: 0;
   text-align: center;
   padding: 5px;
@@ -37,13 +39,13 @@ h1 {
   margin-bottom: 10px;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   padding-left: 0;
   margin-top: 5px;
 }
 
-a {
+nav a {
   color: #6c8fe0;
   text-decoration: none;
   font-size: 1.125rem;
@@ -59,7 +61,7 @@ li:hover {
   background-color: #6c8fe0;
 }
 
-a:hover {
+nav a:hover {
   color: #fff;
 }
 
