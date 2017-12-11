@@ -51,7 +51,7 @@ nav a {
   text-decoration: none;
   display: block;
   margin-bottom: 5px;
-  white-space: normal;
+  white-space: nowrap;
 }
 
 li {
