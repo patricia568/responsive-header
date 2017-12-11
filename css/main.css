@@ -39,7 +39,7 @@ h1 {
 
 ul {
   list-style-type: none;
-  margin-left: -1.8em;
+  padding-left: 0;
   margin-top: 5px;
 }
 
@@ -55,7 +55,10 @@ li {
   padding: 5px;
 }
 
-a:hover {
+li:hover {
   background-color: #6c8fe0;
+}
+
+a:hover {
   color: #fff;
 }
